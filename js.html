@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+</head>
+
+<body>
+  
+  <script>
+    // console.log("hello javascript");
+    // console.log(3);
+    // console.log(true);
+    // console.log(null);
+    // let x; // let 變數名稱
+    // console.log(x);
+    // x =10; //把資料放進變數中:變數名稱 = 資料
+    // console.log(x);
+    // x = true;
+    // console.log(x);
+    // let abc = "hello";
+    // console.log(abc);
+    // let x = 3*5;
+    //   console.log(x);
+    //   //指定運算：=, +=, -=, *=, /=
+    //   x += 2 ;
+    //   console.log(x);
+    //   // 比較運算：>,<, >=, ==
+    //   x = 3==4; 
+    //   console.log(x);
+    //   x = "hello"=="hello"
+    // 邏輯運算：&& ||
+
+    // let result = true && false;
+    // console.log(result);
+    // result =(3==4)|| ("Hello"=="World");
+    // console.log(result);
+    // // 單元運算：!, ++, ++
+    // result = !true;// 反轉布林值
+    // result = !result;
+    // console.log(result);
+    // let y=5;
+    // y++;// y+=1;//y=y+1
+    // console.log(y);
+
+    // 要求使用者輸入 prompt(字串，字串);固定用【字串】的形式取得使用者的輸入
+    //  let n1= prompt("請輸入一個數字","");
+    //  let n2= prompt("請輸入一個數字","");
+    //  // 利用 parseInt(字串) 把字串轉換成整數型態
+    //  n1 = parseInt(n1); // parseInt("16") 會得到16
+    //  n2 = parseInt(n2);
+    //  let result = n1 + n2;
+    //  console.log(result);
+
+
+
+    // 流程控制
+    // if 判斷式
+    /* if(布林值) {
+    如果布林值是 true，執行這個區塊的程式碼
+    }else{
+      如果布林值是 false，執行這個區塊的程式碼
+    }
+    */
+    let money = prompt("請問你要領多少錢", "");
+    money = parseInt(money);
+    if (money >= 100 && money <= 100000) {
+      console.log("OK");
+
+    } else if (money < 100) {
+      console.log("金額過低請輸入大於100的金額");
+    } else {
+      console.log("金額過大請輸入小於100000的金額");
+    }
+    console.log("End");
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
